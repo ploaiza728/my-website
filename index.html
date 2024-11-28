@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Sentence Structures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Practice Sentence Structures</h1>
+        <p>Identify the grammatical structure of the following sentences.</p>
+    </header>
+    <main>
+        <div id="sentence-container">
+            <p id="sentence">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div id="options-container">
+            <span class="word" draggable="true">The</span>
+            <span class="word" draggable="true">quick</span>
+            <span class="word" draggable="true">brown</span>
+            <span class="word" draggable="true">fox</span>
+            <span class="word" draggable="true">jumps</span>
+            <span class="word" draggable="true">over</span>
+            <span class="word" draggable="true">the</span>
+            <span class="word" draggable="true">lazy</span>
+            <span class="word" draggable="true">dog</span>
+        </div>
+        <div id="drop-area">
+            <p>Drag the subject here: <span id="subject-area" class="drop-zone"></span></p>
+            <p>Drag the verb here: <span id="verb-area" class="drop-zone"></span></p>
+            <p>Drag the object here: <span id="object-area" class="drop-zone"></span></p>
+        </div>
+        <button id="check-button">Check Answer</button>
+        <p id="feedback"></p>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
